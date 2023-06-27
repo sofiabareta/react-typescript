@@ -1,9 +1,9 @@
 import Button from "../Button"
 import Watch from "./Watch"
-import style from './Stopwatch.module.scss'
 import { ITasks } from "../../types/task"
 import { useEffect, useState } from "react"
 import { toSeconds } from "../../common/utils/time"
+const style = require( './Stopwatch.module.scss')
 
 interface Props { 
     selected: ITasks | undefined,

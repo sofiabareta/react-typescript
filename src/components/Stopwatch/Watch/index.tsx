@@ -1,4 +1,4 @@
-import style from './Watch.module.scss'
+const style = require( './Watch.module.scss')
 
 interface Props {
     time: number | undefined

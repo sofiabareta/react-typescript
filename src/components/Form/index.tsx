@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Button from "../Button";
-import style from './Form.module.scss'
 import { ITasks } from "../../types/task";
 import { v4 as uuidv4 } from 'uuid'; 
+const style = require('./Form.module.scss')
 
 interface Props {
     setTasks: React.Dispatch<React.SetStateAction<ITasks[]>>
