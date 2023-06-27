@@ -1,5 +1,5 @@
 import React from "react";
-const style = require('./Button.module.scss')
+import style from './Button.module.scss'
 
 interface Props { 
     children?: React.ReactNode, 

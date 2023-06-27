@@ -1,5 +1,5 @@
 import { ITasks } from '../../../types/task'
-const style = require( '../List.module.scss')
+import style from '../List.module.scss'
 
 interface Props extends ITasks {
     selectTask: (selectedTask:ITasks) => void 

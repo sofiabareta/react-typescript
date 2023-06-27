@@ -1,6 +1,6 @@
+import style from './List.module.scss'
 import Item from "./Item";
 import { ITasks } from '../../types/task';
-const style = require( './List.module.scss')
 
 interface Props {
     tasks: ITasks[],
